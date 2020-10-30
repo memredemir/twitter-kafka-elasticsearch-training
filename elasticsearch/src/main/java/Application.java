@@ -1,13 +1,12 @@
 import com.twittersample.elasticsearch.consumer.ElasticSearchConsumer;
 import com.twittersample.elasticsearch.consumer.ElasticSearchConsumerTransaction;
 import com.twittersample.elasticsearch.kafkaconsumer.ElasticSearchKafkaConsumer;
-import com.twittersample.elasticsearch.util.TwitterHelper;
+import com.twittersample.util.TwitterHelper;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.elasticsearch.action.bulk.BulkRequest;
 import org.elasticsearch.action.bulk.BulkResponse;
-import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.slf4j.Logger;

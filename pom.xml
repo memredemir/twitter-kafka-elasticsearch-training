@@ -25,6 +25,7 @@
         <module>elasticsearch</module>
         <module>twitter</module>
         <module>util</module>
+        <module>filterstream</module>
     </modules>
 
     <dependencies>
